@@ -1,0 +1,367 @@
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1 (main)
+$ cd unix_exercise
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise (main)
+$ cd chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/chest (main)
+$ ;s
+bash: syntax error near unexpected token `;'
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/chest (main)
+$ rm dummy
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/chest (main)
+$ ls
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise (main)
+$ cd house
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure 2 ../../../chest
+mv: cannot stat 'treasure': No such file or directory
+mv: cannot stat '2': No such file or directory
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ../laundry-room
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1 trash2
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ../..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ../..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4 trash5
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd..
+bash: cd..: command not found
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ../../
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ../../../
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10 trash11
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 trash9
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ../../bedroom-2
+bash: cd: ../../bedroom-2: No such file or directory
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ../../bedroom2
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ../../..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12 trash13 trash14
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ../../../../chest
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/chest (main)
+$ ls
+trasure   trasure5  treasure1  treasure7  treasure9
+trasure4  trasure6  treasure2  treasure8
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise (main)
+$ file . house trash
+.:     directory
+house: directory
+trash: cannot open `trash' (No such file or directory)
+
+Sam Page@JOKER MINGW64 ~/Programming/RevaturePrograms/exercises/week1/unix_exercise (main)
+$
+
